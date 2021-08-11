@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HomePage from "./pages/HomePage";
 import "./App.scss";
-import { Navbar } from "./components/molecules/Navbar";
+import { Navbar } from "./components/Navbar";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (

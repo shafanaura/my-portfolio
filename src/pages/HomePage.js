@@ -1,49 +1,16 @@
 import React from "react";
-import { Container } from "../components/atoms/Container";
+import { Container } from "../components/Container";
+import Home from "../layouts/Home";
 
 const HomePage = () => {
   return (
-    <Container className="mt-24">
-      <p>1</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
-      <p>dawd</p>
+    <Container>
+      <section id="section1">
+        <Home />
+      </section>
+      <section id="section2">a</section>
+      <section id="section3">a</section>
+      <section id="section4">a</section>
     </Container>
   );
 };
