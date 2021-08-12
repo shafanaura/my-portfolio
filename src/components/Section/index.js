@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import styled from "styled-components";
 import { typography } from "../../theme/typography";
 
@@ -12,9 +11,9 @@ const Title = styled.p`
 
 export const Section = (props) => {
   return (
-    <Fragment>
+    <div {...props}>
       <Title>{props.title}</Title>
       {props.children}
-    </Fragment>
+    </div>
   );
 };
