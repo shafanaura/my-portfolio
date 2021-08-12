@@ -1,6 +1,6 @@
 import React from "react";
 import { CardDesc } from "../components/CardDesc";
-import picture from "../../assets/img/IMG_20210810_084652.jpg";
+import picture from "../assets/img/IMG_20210810_084652.jpg";
 import styled from "styled-components";
 import { typography } from "../theme/typography";
 import { theme } from "../theme/color";
