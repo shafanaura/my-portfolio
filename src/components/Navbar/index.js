@@ -10,8 +10,8 @@ export const Navbar = () => {
   return (
     <nav className="navbar">
       <div>
-        <a href="#section-works">WORKS</a>
-        <a href="#section-contact">CONTACT</a>
+        <a href="#works">WORKS</a>
+        <a href="#contact">CONTACT</a>
       </div>
       <div>
         <FaGithub className="icon" />

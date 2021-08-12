@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { theme } from "../../theme/color";
+import { typography } from "../../theme/typography";
 
 const Card = styled.div`
   margin-bottom: 60px;
@@ -15,7 +16,7 @@ const Title = styled.p`
 `;
 
 const Desc = styled.p`
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: ${typography.giorgia};
   font-size: 18px;
   line-height: 1.8rem;
   font-size: ${(props) => (props.big ? "48px" : "18px")};

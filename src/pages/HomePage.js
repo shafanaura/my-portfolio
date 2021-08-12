@@ -1,16 +1,18 @@
 import React from "react";
 import { Container } from "../components/Container";
+import { Section } from "../components/Section";
+import { Advantage } from "../layouts/Advantage";
 import Home from "../layouts/Home";
 
 const HomePage = () => {
   return (
     <Container>
-      <section id="section1">
-        <Home />
-      </section>
-      <section id="section2">a</section>
-      <section id="section3">a</section>
-      <section id="section4">a</section>
+      <Home />
+      <Section title="My Advantage">
+        <Advantage />
+      </Section>
+      <section id="works">a</section>
+      <section id="contact">a</section>
     </Container>
   );
 };
