@@ -4,7 +4,6 @@ import "./App.scss";
 import { Navbar } from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import { FiChevronUp } from "react-icons/fi";
-import { theme } from "./theme/color";
 
 const App = () => {
   const [showScroll, setShowScroll] = useState(false);
