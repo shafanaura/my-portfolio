@@ -37,16 +37,32 @@ export const Navbar = () => {
         <a href="#contact">CONTACT</a>
       </div>
       <div className="icon">
-        <a href="https://github.com/shafanaura" target="_blank">
+        <a
+          href="https://github.com/shafanaura"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub />
         </a>
-        <a href="https://www.instagram.com/shafanaura/" target="_blank">
+        <a
+          href="https://www.instagram.com/shafanaura/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaInstagram />
         </a>
-        <a href="https://www.facebook.com/shafanaura48/" target="_blank">
+        <a
+          href="https://www.facebook.com/shafanaura48/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaFacebookF />
         </a>
-        <a href="https://www.linkedin.com/in/shafanaura/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/shafanaura/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedinIn />
         </a>
       </div>
