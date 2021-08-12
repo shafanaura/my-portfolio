@@ -1,0 +1,55 @@
+import {
+  FaGithub,
+  FaInstagram,
+  FaFacebookF,
+  FaLinkedinIn,
+} from "react-icons/fa";
+import styled from "styled-components";
+
+const Nav = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  height: 50px;
+  .nav-link {
+    a {
+      color: black;
+      font-weight: 700;
+      margin-right: 32px;
+      font-size: 14px;
+    }
+  }
+  .icon {
+    a {
+      margin-left: 18px;
+      font-size: 18px;
+      color: black;
+    }
+  }
+`;
+
+export const Navbar = () => {
+  return (
+    <Nav>
+      <div className="nav-link">
+        <a href="#works">WORKS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+      <div className="icon">
+        <a href="https://github.com/shafanaura" target="_blank">
+          <FaGithub />
+        </a>
+        <a href="https://www.instagram.com/shafanaura/" target="_blank">
+          <FaInstagram />
+        </a>
+        <a href="https://www.facebook.com/shafanaura48/" target="_blank">
+          <FaFacebookF />
+        </a>
+        <a href="https://www.linkedin.com/in/shafanaura/" target="_blank">
+          <FaLinkedinIn />
+        </a>
+      </div>
+    </Nav>
+  );
+};

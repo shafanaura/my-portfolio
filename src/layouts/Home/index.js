@@ -2,10 +2,33 @@ import React from "react";
 import { CardDesc } from "../../components/CardDesc";
 import "./styles.scss";
 import picture from "../../assets/img/IMG_20210810_084652.jpg";
+import styled from "styled-components";
+import { typography } from "../../theme/typography";
+import { theme } from "../../theme/color";
+
+const Layout = styled.div`
+  .title {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 500;
+    font-family: ${typography.giorgia};
+    margin-bottom: 40px;
+  }
+  img {
+    border-radius: 220px;
+    padding: 20px;
+    border: 2px solid ${theme.line};
+  }
+  .col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+`;
 
 const Home = () => {
   return (
-    <div className="home-layout">
+    <Layout>
       <p className="title">
         Shafa Naura
         <br />
@@ -41,7 +64,7 @@ const Home = () => {
           <CardDesc right title="CLIENTS OF WORLWIDE" desc="3" big />
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 

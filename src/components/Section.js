@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { typography } from "../../theme/typography";
+import { typography } from "../theme/typography";
 
 const Title = styled.p`
   text-align: center;

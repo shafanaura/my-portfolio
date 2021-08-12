@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../../theme/color";
+import { theme } from "../theme/color";
 
 const Card = styled.div`
   background-color: ${theme.inputbg};

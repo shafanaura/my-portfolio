@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { CardAdvantage } from "../../components/CardAdvantage";
+import { CardAdvantage } from "../components/CardAdvantage";
 
 const Container = styled.div`
   display: flex;

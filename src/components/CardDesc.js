@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { theme } from "../../theme/color";
-import { typography } from "../../theme/typography";
+import { theme } from "../theme/color";
+import { typography } from "../theme/typography";
 
 const Card = styled.div`
   margin-bottom: 60px;
