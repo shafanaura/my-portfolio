@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import styled from "styled-components";
 import { theme } from "../theme/color";
 import { typography } from "../theme/typography";
@@ -20,6 +21,10 @@ const Text = styled.p`
   font-size: 14px;
 `;
 
+const Space = styled.div`
+  margin-top: 16px;
+`;
+
 const CardList = (props) => {
   return (
     <div {...props}>
@@ -27,7 +32,21 @@ const CardList = (props) => {
       <Title>{props.title}</Title>
       <Text>{props.text1}</Text>
       <Text>{props.text2}</Text>
-      <p style={{ marginTop: 16 }}>{props.description}</p>
+      <p>{props.description}</p>
+      <Space />
+      {props.jobdesc && (
+        <Fragment>
+          <b>Job Desc :</b>
+          {props.jobdesc}
+        </Fragment>
+      )}
+      <Space />
+      {props.tech && (
+        <Fragment>
+          <b>Tech :</b>
+          {props.tech}
+        </Fragment>
+      )}
     </div>
   );
 };

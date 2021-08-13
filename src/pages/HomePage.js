@@ -19,7 +19,7 @@ const HomePage = () => {
         <Education />
       </Section>
       <Divider />
-      <Section title="Work Experience" id="work">
+      <Section title="Work Experience">
         <Experience />
       </Section>
     </Container>

@@ -1,5 +1,6 @@
 import CardList from "../components/CardList";
-import { GridContainer } from "../components/GridContainer";
+import { FlexContainer, GridContainer } from "../components/Container";
+import { Tag } from "../components/Tag";
 import dataExperience from "../utils/experience.json";
 
 const Experience = () => {
@@ -13,6 +14,20 @@ const Experience = () => {
           text1={item.company}
           text2={item.location}
           description={item.description}
+          jobdesc={
+            <ul>
+              {item.jobdesc.map((item) => (
+                <li>{item.description}</li>
+              ))}
+            </ul>
+          }
+          tech={
+            <FlexContainer>
+              {item.tech.map((data) => (
+                <Tag item={data.framework} />
+              ))}
+            </FlexContainer>
+          }
         />
       ))}
     </GridContainer>

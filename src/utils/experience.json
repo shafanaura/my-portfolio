@@ -5,7 +5,46 @@
     "position": "Intership as student",
     "date": "July 2018 – January 2019 ∙ 6 mos",
     "location": "Tulungagung, Indonesia",
-    "description": "Assist in handling software so that sales increase such as posting products on websites and social media by using spam techniques from this exrush company software. Creating desktop-based applications using the C# programming language and websites using wordpress. The applications I have made include car rental management, online shops, and game downloads"
+    "jobdesc": [
+      {
+        "id": "1",
+        "description": "Help handle software to increase sales"
+      },
+      {
+        "id": "2",
+        "description": "Post products on websites and social media using spam techniques from homemade software"
+      },
+      {
+        "id": "3",
+        "description": "Create a desktop-based car rental application using C#"
+      },
+      {
+        "id": "4",
+        "description": "Create online shop & download games site using WordPress"
+      },
+      {
+        "id": "5",
+        "description": "Create School attendance using CodeIgniter Framework"
+      }
+    ],
+    "tech": [
+      {
+        "id": "1",
+        "framework": "WordPress"
+      },
+      {
+        "id": "2",
+        "framework": "CodeIgniter"
+      },
+      {
+        "id": "3",
+        "framework": "PHP"
+      },
+      {
+        "id": "4",
+        "framework": "C#"
+      }
+    ]
   },
   {
     "id": "2",
@@ -13,7 +52,46 @@
     "position": "Frontend Developer",
     "date": "June 2020 – August 2020 ∙ 2 mos",
     "location": "Tulungagung, Indonesia",
-    "description": "Working remotely as a Front End Developer focuses on developing website and mobile based applications with the React JS and React Native libraries as well as creating UI designs and mobile application prototypes. Implement a predefined figma mockup to become an application"
+    "jobdesc": [
+      {
+        "id": "1",
+        "description": "Working remotely focusing on web & mobile based application development"
+      },
+      {
+        "id": "2",
+        "description": "Build app using reactjs & react native"
+      },
+      {
+        "id": "3",
+        "description": "Create UI designs and mobile application prototypes"
+      },
+      {
+        "id": "4",
+        "description": "Slicing ui to code"
+      }
+    ],
+    "tech": [
+      {
+        "id": "1",
+        "framework": "WordPress"
+      },
+      {
+        "id": "2",
+        "framework": "CodeIgniter"
+      },
+      {
+        "id": "3",
+        "framework": "PHP"
+      },
+      {
+        "id": "4",
+        "framework": "Bootstrap"
+      },
+      {
+        "id": "5",
+        "framework": "C#"
+      }
+    ]
   },
   {
     "id": "3",
@@ -21,6 +99,37 @@
     "position": "Frontend Developer",
     "date": "May 2021 – present",
     "location": "Jakarta, Indonesia",
-    "description": "Working remotely as a Front End Developer focuses on developing website and mobile based applications with the React JS and React Native libraries as well as creating UI designs and mobile application prototypes. Implement a predefined figma mockup to become an application"
+    "jobdesc": [
+      {
+        "id": "1",
+        "description": "Help handle software to increase sales"
+      },
+      {
+        "id": "2",
+        "description": "Post products on websites and social media using spam techniques from homemade software"
+      },
+      {
+        "id": "3",
+        "description": "Create a desktop-based car rental application using the C# programming language, online shop & download games using wordpress, school attendance using codeigniter"
+      }
+    ],
+    "tech": [
+      {
+        "id": "1",
+        "framework": "WordPress"
+      },
+      {
+        "id": "2",
+        "framework": "CodeIgniter"
+      },
+      {
+        "id": "3",
+        "framework": "PHP"
+      },
+      {
+        "id": "4",
+        "framework": "C#"
+      }
+    ]
   }
 ]

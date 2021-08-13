@@ -1,5 +1,5 @@
 import CardList from "../components/CardList";
-import { GridContainer } from "../components/GridContainer";
+import { GridContainer } from "../components/Container";
 import dataEducation from "../utils/education.json";
 
 const Education = () => {
