@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import styled from "styled-components";
 import { theme } from "../theme/color";
 import { typography } from "../theme/typography";
