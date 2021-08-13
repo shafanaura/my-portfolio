@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "school": "SMKN 1 Boyolangu",
+    "major": "Software Engineer",
+    "date": "July 2017 – April 2020",
+    "description": "Focus on learning to create web-based, mobile and desktop-based applications using the programming languages PHP, C ++ and Java. The applications I have made include online shops, car rentals, school library system managers, and many more"
+  },
+  {
+    "id": "2",
+    "school": "Arkademy Bootcamp",
+    "major": "Fullstack Javascript Developer",
+    "date": "December 2020 – April 2021",
+    "description": "Focus on learning to create web-based, mobile and desktop-based applications using the programming languages PHP, C ++ and Java. The applications I have made include online shops, car rentals, school library system managers, and many more"
+  }
+]
