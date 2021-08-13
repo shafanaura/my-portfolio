@@ -3,14 +3,16 @@
     "id": "1",
     "school": "SMKN 1 Boyolangu",
     "major": "Software Engineer",
-    "date": "July 2017 – April 2020",
-    "description": "Focus on learning to create web-based, mobile and desktop-based applications using the programming languages PHP, C ++ and Java. The applications I have made include online shops, car rentals, school library system managers, and many more"
+    "date": "July 2017 – April 2020 ∙ 3 yr",
+    "location": "Tulungagung, Indonesia",
+    "description": "Focus on learning to create web-based, mobile and desktop-based applications using the programming languages PHP, C++ and Java. The applications I have made include online shops, car rentals, school library system managers, and many more"
   },
   {
     "id": "2",
     "school": "Arkademy Bootcamp",
     "major": "Fullstack Javascript Developer",
-    "date": "December 2020 – April 2021",
-    "description": "Focus on learning to create web-based, mobile and desktop-based applications using the programming languages PHP, C ++ and Java. The applications I have made include online shops, car rentals, school library system managers, and many more"
+    "date": "December 2020 – April 2021 ∙ 6 mos",
+    "location": "Yogyakarta, Indonesia",
+    "description": "Focus on studying and preparing for a career in website and mobile development using the Javascript programming language for 3 months. The stack that was studied included Reactjs, React Native, Expressjs, Redux, and many more. Build a team to complete movie ticket booking projects and digital wallets based on websites and mobile."
   }
 ]

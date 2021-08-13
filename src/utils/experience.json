@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "company": "PT. Exrush Digital Nusantara ∙ Contract",
+    "position": "Intership as student",
+    "date": "July 2018 – January 2019 ∙ 6 mos",
+    "location": "Tulungagung, Indonesia",
+    "description": "Assist in handling software so that sales increase such as posting products on websites and social media by using spam techniques from this exrush company software. Creating desktop-based applications using the C# programming language and websites using wordpress. The applications I have made include car rental management, online shops, and game downloads"
+  },
+  {
+    "id": "2",
+    "company": "Remote Work ∙ Part-time",
+    "position": "Frontend Developer",
+    "date": "June 2020 – August 2020 ∙ 2 mos",
+    "location": "Tulungagung, Indonesia",
+    "description": "Working remotely as a Front End Developer focuses on developing website and mobile based applications with the React JS and React Native libraries as well as creating UI designs and mobile application prototypes. Implement a predefined figma mockup to become an application"
+  },
+  {
+    "id": "3",
+    "company": "PT. Neural Technologies Indonesia ∙ Contract",
+    "position": "Frontend Developer",
+    "date": "May 2021 – present",
+    "location": "Jakarta, Indonesia",
+    "description": "Working remotely as a Front End Developer focuses on developing website and mobile based applications with the React JS and React Native libraries as well as creating UI designs and mobile application prototypes. Implement a predefined figma mockup to become an application"
+  }
+]

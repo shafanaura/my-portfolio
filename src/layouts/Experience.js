@@ -1,16 +1,16 @@
 import CardList from "../components/CardList";
 import { GridContainer } from "../components/GridContainer";
-import dataEducation from "../utils/education.json";
+import dataExperience from "../utils/experience.json";
 
-const Education = () => {
+const Experience = () => {
   return (
     <GridContainer>
-      {dataEducation.map((item) => (
+      {dataExperience.map((item) => (
         <CardList
           key={item.id}
           date={item.date}
-          title={item.major}
-          text1={item.school}
+          title={item.position}
+          text1={item.company}
           text2={item.location}
           description={item.description}
         />
@@ -19,4 +19,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Experience;

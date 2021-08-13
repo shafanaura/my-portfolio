@@ -6,7 +6,7 @@ const Title = styled.p`
   font-size: 36px;
   font-family: ${typography.giorgia};
   margin-top: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 `;
 
 export const Section = (props) => {

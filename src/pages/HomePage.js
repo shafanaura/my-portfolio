@@ -4,6 +4,7 @@ import { Divider } from "../components/Divider";
 import { Section } from "../components/Section";
 import { Advantage } from "../layouts/Advantage";
 import Education from "../layouts/Education";
+import Experience from "../layouts/Experience";
 import Home from "../layouts/Home";
 
 const HomePage = () => {
@@ -16,6 +17,10 @@ const HomePage = () => {
       <Divider />
       <Section title="Education" id="contact">
         <Education />
+      </Section>
+      <Divider />
+      <Section title="Work Experience" id="work">
+        <Experience />
       </Section>
     </Container>
   );
