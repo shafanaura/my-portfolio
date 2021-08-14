@@ -5,7 +5,47 @@
     "major": "Software Engineer",
     "date": "July 2017 – April 2020 ∙ 3 yr",
     "location": "Tulungagung, Indonesia",
-    "description": "Focus on learning to create web-based, mobile and desktop-based applications using the programming languages PHP, C++ and Java. The applications I have made include online shops, car rentals, school library system managers, and many more"
+    "description": "Focus on learning to create web-based, mobile and desktop-based applications using the programming languages PHP, C++ and Java. The applications I have made include online shops, car rentals, school library system managers, and many more",
+    "jobdesc": [
+      {
+        "id": "1",
+        "description": "Focus on learning to create web-based, mobile and desktop-based applications using the programming languages PHP, C++ and Java"
+      },
+      {
+        "id": "2",
+        "description": "The applications I have made include online shops, car rentals, school library system managers, and many more"
+      }
+    ],
+    "tech": [
+      {
+        "id": "1",
+        "framework": "HTML"
+      },
+      {
+        "id": "2",
+        "framework": "PHP"
+      },
+      {
+        "id": "3",
+        "framework": "Java"
+      },
+      {
+        "id": "4",
+        "framework": "C++"
+      },
+      {
+        "id": "5",
+        "framework": "CodeIgniter"
+      },
+      {
+        "id": "6",
+        "framework": "Bootstrap"
+      },
+      {
+        "id": "7",
+        "framework": "MySQL"
+      }
+    ]
   },
   {
     "id": "2",
@@ -13,6 +53,66 @@
     "major": "Fullstack Javascript Developer",
     "date": "December 2020 – April 2021 ∙ 6 mos",
     "location": "Yogyakarta, Indonesia",
-    "description": "Focus on studying and preparing for a career in website and mobile development using the Javascript programming language for 3 months. The stack that was studied included Reactjs, React Native, Expressjs, Redux, and many more. Build a team to complete movie ticket booking projects and digital wallets based on websites and mobile."
+    "description": "Focus on studying and preparing for a career in website and mobile development using the Javascript programming language for 3 months. The stack that was studied included Reactjs, React Native, Expressjs, Redux, and many more. Build a team to complete movie ticket booking projects and digital wallets based on websites and mobile.",
+    "jobdesc": [
+      {
+        "id": "1",
+        "description": "Focus on studying and preparing for a career in website and mobile development using the Javascript programming language for 3 months"
+      },
+      {
+        "id": "2",
+        "description": "The stack that was studied included Reactjs, React Native, Expressjs, Redux, and many more"
+      },
+      {
+        "id": "3",
+        "description": "Build a team to complete movie ticket booking projects and digital wallets based on websites and mobile."
+      }
+    ],
+    "tech": [
+      {
+        "id": "1",
+        "framework": "HTML"
+      },
+      {
+        "id": "2",
+        "framework": "Javascript"
+      },
+      {
+        "id": "3",
+        "framework": "React JS"
+      },
+      {
+        "id": "4",
+        "framework": "React Native"
+      },
+      {
+        "id": "5",
+        "framework": "Bootstrap"
+      },
+      {
+        "id": "6",
+        "framework": "AWS"
+      },
+      {
+        "id": "7",
+        "framework": "Redux"
+      },
+      {
+        "id": "8",
+        "framework": "Express JS"
+      },
+      {
+        "id": "9",
+        "framework": "Socket io"
+      },
+      {
+        "id": "10",
+        "framework": "Firebase"
+      },
+      {
+        "id": "11",
+        "framework": "MySQL"
+      }
+    ]
   }
 ]

@@ -30,19 +30,23 @@
     "tech": [
       {
         "id": "1",
-        "framework": "WordPress"
+        "framework": "HTML"
       },
       {
         "id": "2",
-        "framework": "CodeIgniter"
-      },
-      {
-        "id": "3",
         "framework": "PHP"
       },
       {
+        "id": "3",
+        "framework": "Bootstrap"
+      },
+      {
         "id": "4",
-        "framework": "C#"
+        "framework": "CodeIgniter"
+      },
+      {
+        "id": "5",
+        "framework": "WordPress"
       }
     ]
   },
@@ -59,7 +63,7 @@
       },
       {
         "id": "2",
-        "description": "Build app using reactjs & react native"
+        "description": "Build app using React JS & React Native"
       },
       {
         "id": "3",
@@ -67,29 +71,41 @@
       },
       {
         "id": "4",
-        "description": "Slicing ui to code"
+        "description": "Slicing UI to code"
       }
     ],
     "tech": [
       {
         "id": "1",
-        "framework": "WordPress"
+        "framework": "HTML"
       },
       {
         "id": "2",
-        "framework": "CodeIgniter"
+        "framework": "Javascript"
       },
       {
         "id": "3",
-        "framework": "PHP"
+        "framework": "React JS"
       },
       {
         "id": "4",
-        "framework": "Bootstrap"
+        "framework": "React Native"
       },
       {
         "id": "5",
-        "framework": "C#"
+        "framework": "Material UI"
+      },
+      {
+        "id": "6",
+        "framework": "UI Kitten"
+      },
+      {
+        "id": "7",
+        "framework": "Figma"
+      },
+      {
+        "id": "8",
+        "framework": "Framer"
       }
     ]
   },
@@ -102,33 +118,65 @@
     "jobdesc": [
       {
         "id": "1",
-        "description": "Help handle software to increase sales"
+        "description": "Create website applications for their own products and from clients"
       },
       {
         "id": "2",
-        "description": "Post products on websites and social media using spam techniques from homemade software"
+        "description": "Slicing UI to code"
       },
       {
         "id": "3",
-        "description": "Create a desktop-based car rental application using the C# programming language, online shop & download games using wordpress, school attendance using codeigniter"
+        "description": "API integration to website using Axios"
+      },
+      {
+        "id": "4",
+        "description": "Create website designs & prototypes"
+      },
+      {
+        "id": "5",
+        "description": "Build website using React JS & React Typescript"
       }
     ],
     "tech": [
       {
         "id": "1",
-        "framework": "WordPress"
+        "framework": "HTML"
       },
       {
         "id": "2",
-        "framework": "CodeIgniter"
+        "framework": "Javascript"
       },
       {
         "id": "3",
-        "framework": "PHP"
+        "framework": "React JS"
       },
       {
         "id": "4",
-        "framework": "C#"
+        "framework": "Typescript"
+      },
+      {
+        "id": "5",
+        "framework": "Axios"
+      },
+      {
+        "id": "6",
+        "framework": "Ant Design"
+      },
+      {
+        "id": "7",
+        "framework": "Figma"
+      },
+      {
+        "id": "8",
+        "framework": "Adobe XD"
+      },
+      {
+        "id": "9",
+        "framework": "Amcharts"
+      },
+      {
+        "id": "10",
+        "framework": "Redux"
       }
     ]
   }

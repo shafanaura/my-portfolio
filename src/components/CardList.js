@@ -22,7 +22,7 @@ const Text = styled.p`
 `;
 
 const Space = styled.div`
-  margin-top: 16px;
+  margin-top: ${(props) => (props.mt ? props.mt : "16px")};
 `;
 
 const CardList = (props) => {
@@ -32,11 +32,11 @@ const CardList = (props) => {
       <Title>{props.title}</Title>
       <Text>{props.text1}</Text>
       <Text>{props.text2}</Text>
-      <p>{props.description}</p>
       <Space />
       {props.jobdesc && (
         <Fragment>
           <b>Job Desc :</b>
+          <Space mt="4px" />
           {props.jobdesc}
         </Fragment>
       )}
@@ -44,6 +44,7 @@ const CardList = (props) => {
       {props.tech && (
         <Fragment>
           <b>Tech :</b>
+          <Space mt="6px" />
           {props.tech}
         </Fragment>
       )}
