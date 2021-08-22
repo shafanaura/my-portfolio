@@ -5,5 +5,6 @@ export const Divider = styled.hr`
   height: 2px;
   background-color: ${theme.placeholder};
   border: none;
-  margin: 80px 0;
+  margin-top: 80px;
+  margin-bottom: ${(props) => (props.mb ? props.mb : "80px")};
 `;

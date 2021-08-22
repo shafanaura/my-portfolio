@@ -5,6 +5,7 @@ import { Section } from "../components/Section";
 import { Advantage } from "../layouts/Advantage";
 import Education from "../layouts/Education";
 import Experience from "../layouts/Experience";
+import Footer from "../layouts/Footer";
 import Home from "../layouts/Home";
 
 const HomePage = () => {
@@ -22,6 +23,8 @@ const HomePage = () => {
       <Section title="Work Experience">
         <Experience />
       </Section>
+      <Divider mb="40px" />
+      <Footer />
     </Container>
   );
 };
