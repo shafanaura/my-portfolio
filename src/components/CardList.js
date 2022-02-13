@@ -12,7 +12,7 @@ const Title = styled.p`
 
 const TextTitle = styled.p`
   color: ${theme.label};
-  margin-bottom: 24px;
+  margin-bottom: 14px;
   font-size: 14px;
 `;
 

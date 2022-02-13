@@ -4,6 +4,7 @@ import picture from "../assets/img/IMG_20210810_084652.jpg";
 import styled from "styled-components";
 import { typography } from "../theme/typography";
 import { theme } from "../theme/color";
+import { device } from "../utils/MediaQuery";
 
 const Layout = styled.div`
   .title {
@@ -12,6 +13,12 @@ const Layout = styled.div`
     font-weight: 500;
     font-family: ${typography.giorgia};
     margin-bottom: 40px;
+    @media ${device.mobile} {
+      font-size: 26px;
+    }
+    @media ${device.mobile} {
+      font-size: 26px;
+    }
   }
   img {
     border-radius: 220px;
@@ -22,6 +29,22 @@ const Layout = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .card-desc {
+    display: grid;
+    gap: 60px;
+  }
+  @media ${device.tablet} {
+    .col {
+      flex-direction: column;
+      gap: 42px;
+    }
+  }
+  @media ${device.mobile} {
+    .col {
+      flex-direction: column;
+      gap: 42px;
+    }
   }
 `;
 
@@ -37,12 +60,12 @@ const Home = () => {
       </p>
 
       <div className="col">
-        <div>
+        <div className="card-desc">
           <CardDesc
             title="BIOGRAPHY"
             desc="Work for money and programming for love! I'm Shafa, an Mobile & Web Developer based in Indonesia"
           />
-          <CardDesc title="CONTACT">
+          <CardDesc title="CONTACT" id="contact">
             East Java, Indonesia
             <br />
             shafanaura48@gmail.com
@@ -56,11 +79,11 @@ const Home = () => {
           </CardDesc>
         </div>
         <img src={picture} height={550} alt="me" />
-        <div>
-          <CardDesc right title="YEARS OF EXPERIENCE" desc="4" big />
-          <CardDesc right title="SATISFITATION CLIENTS" desc="100%" big />
-          <CardDesc right title="REAL WORLD PROJECTS DONE" desc="+5" big />
-          <CardDesc right title="CLIENTS OF WORLWIDE" desc="3" big />
+        <div className="card-desc">
+          <CardDesc right title="YEARS OF EXPERIENCE" desc="+1" big />
+          <CardDesc right title="CLIENT SATISFACTION" desc="100%" big />
+          <CardDesc right title="REAL WORLD PROJECT COMPLETE" desc="+5" big />
+          <CardDesc right title="CLIENTS WORLDWIDE" desc="3" big />
         </div>
       </div>
     </Layout>

@@ -16,7 +16,7 @@ const HomePage = () => {
         <Advantage />
       </Section>
       <Divider />
-      <Section title="Education" id="contact">
+      <Section title="Education">
         <Education />
       </Section>
       <Divider />
