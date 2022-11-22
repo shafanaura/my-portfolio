@@ -1,9 +1,4 @@
-import {
-  FaGithub,
-  FaInstagram,
-  FaFacebookF,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 import styled from "styled-components";
 import { device } from "../utils/MediaQuery";
