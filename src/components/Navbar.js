@@ -4,6 +4,7 @@ import {
   FaFacebookF,
   FaLinkedinIn,
 } from "react-icons/fa";
+import { SiUpwork } from "react-icons/si";
 import styled from "styled-components";
 import { device } from "../utils/MediaQuery";
 
@@ -56,11 +57,11 @@ export const NavContent = () => {
         <FaInstagram />
       </a>
       <a
-        href="https://www.facebook.com/shafanaura48/"
+        href="https://www.upwork.com/freelancers/~01055851b3296d5c11"
         target="_blank"
         rel="noreferrer"
       >
-        <FaFacebookF />
+        <SiUpwork />
       </a>
       <a
         href="https://www.linkedin.com/in/shafanaura/"
